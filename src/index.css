@@ -1,0 +1,79 @@
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+    /* overflow-x: hidden; */ /* Uncomment if you want to hide horizontal overflow */
+}
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(226, 32, 32);
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  height: 70px;  
+  width: 100%;  
+}
+header> h1{
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0 20px;
+}
+.entry{
+   display: flex;
+    max-width: 100vw;
+   align-items: center;
+   padding-left: 25px;
+}
+.entry-image-container{
+    width: 110px;
+    height: 155px;
+    border-radius: 5px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+}
+.entry-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.location-pin{
+    width: 15px;
+    height: 15px;
+}
+.entry-details{
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-top: 50px;
+    width: 100%;
+}
+span.location {
+    text-transform: uppercase;
+    margin-right: 4px;
+    font-size: 0.8rem;
+}
+.entry-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     line-height: 1.3;
+   font-size: 0.9rem;
+   margin-bottom: 20px;
+
+}
+
+h2.entry-title{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+p.trip-dates{
+  font-weight: 550;
+  font-size: 0.8rem;
+}
