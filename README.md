@@ -4,7 +4,7 @@ A React application that displays a collection of travel entries with locations,
 
 ## Description
 
-Travel Journal is a simple and elegant web application that showcases travel experiences. Each entry includes a location with Google Maps link, travel dates, description, and accompanying image.
+Travel Journal is a simple and elegant web application that showcases travel experiences. Each entry includes a location with Google Maps link, travel dates, description, and accompanying image. 
 
 ## Features
 
