@@ -2,6 +2,11 @@
 
 A React application that displays a collection of travel entries with locations, dates, descriptions, and images.
 
+## 🌐 Demo
+
+🔗 **Live Demo:** [travel_journal](https://traveljournal0.netlify.app/)
+
+---
 ## Description
 
 Travel Journal is a simple and elegant web application that showcases travel experiences. Each entry includes a location with Google Maps link, travel dates, description, and accompanying image. 
