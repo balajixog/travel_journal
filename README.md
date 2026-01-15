@@ -58,12 +58,15 @@ The `data.js` file should export an array of travel entry objects:
 ## Components
 
 ### App.jsx
+
 Main component that imports data and renders header and entry list.
 
 ### Header.jsx
+
 Displays the application header/title.
 
 ### Entry.jsx
+
 Individual travel entry component displaying location details, dates, and description.
 
 ## Usage
