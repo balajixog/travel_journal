@@ -28,6 +28,7 @@ npm install react react-dom
 
 ## Project Structure
 ```
+
 src/
 ├── components/
 │   ├── Header.jsx
